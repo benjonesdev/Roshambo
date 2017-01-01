@@ -123,8 +123,6 @@ class DisplayResultsController: UIViewController {
   
     override func viewDidLoad() {
         super.viewDidLoad()
-//        print(self.playerValue)
-//        print(self.computerValue)
         setPlayerIcon()
         setComputerIcon()
         evaluateWinner()
@@ -137,10 +135,7 @@ class DisplayResultsController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-  
-  
-//added whitespace
-  
+
     @IBAction func dismiss() {
       self.dismiss(animated: true, completion: nil)
     }
