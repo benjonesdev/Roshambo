@@ -138,6 +138,9 @@ class DisplayResultsController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
   
+  
+//added whitespace
+  
     @IBAction func dismiss() {
       self.dismiss(animated: true, completion: nil)
     }
